@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h3>attributes1</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Add a "tooltip" to the paragraph below with the text "About W3Schools".</p>
+        </div>
+        <div id="assignmentcode">
+            &lt;p @(5)="About W3Schools">W3Schools is a web developer's site.&lt;/p>
+        </div>
+        <div id="correctcode">
+            &lt;p title="About W3Schools">W3Schools is a web developer's site.&lt;/p>
+        </div>
+    </div>
+    <div>
+        <h3>attributes2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Set the size of the image to 250 pixels wide and 400 pixels tall.</p>
+        </div>
+        <div id="assignmentcode">
+            &lt;img src="w3schools.jpg" width="@(3)" height="@(3)">
+        </div>
+
+        <div id="correctcode">
+            &lt;img src="w3schools.jpg" width="250" height="400">
+        </div>
+    </div>
+    <div>
+        <h3>attributes3</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Make the element below into a link that goes to "https://www.w3schools.com".</p>
+        </div>
+        <div id="assignmentcode">
+            &lt;a @(5)"https://www.w3schools.com">This is a link&lt;/a>
+        </div>
+
+        <div id="correctcode">
+            &lt;a href="https://www.w3schools.com">This is a link&lt;/a>
+        </div>
+    </div>
+    <div>
+        <h3>attributes4</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Specify an alternate text for the image.<br />
+                Alternate text is useful when the image cannot be displayed, like when the page is read by a screen
+                reader.
+            </p>
+        </div>
+
+        <div id="assignmentcode">
+            &lt;img src="w3schools.png" @(3)="w3schools Logo">
+        </div>
+
+        <div id="correctcode">
+            &lt;img src="w3schools.png" alt="w3schools Logo">
+        </div>
+    </div>
+    <div>
+        <h3>headings1</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use the correct HTML tag to add a heading with the text "London".</p>
+        </div>
+
+        <div id="assignmentcode">
+            @(15)
+            <br>
+            <br>
+            &lt;p>London is the capital city of England.
+            It is the most populous city in the United Kingdom,
+            with a metropolitan area of over 13 million inhabitants.&lt;/p>
+        </div>
+
+        <div id="correctcode">
+            &lt;h1>London&lt;/h1>
+            <br>
+            <br>
+            &lt;p>London is the capital city of England.
+            It is the most populous city in the United Kingdom,
+            with a metropolitan area of over 13 million inhabitants.&lt;/p>
+        </div>
+
+        <div id="correctcode2">
+            &lt;h2>London&lt;/h2>
+            <br>
+            <br>
+            &lt;p>London is the capital city of England.
+            It is the most populous city in the United Kingdom,
+            with a metropolitan area of over 13 million inhabitants.&lt;/p>
+        </div>
+
+        <div id="correctcode3">
+            &lt;h3>London&lt;/h3>
+            <br>
+            <br>
+            &lt;p>London is the capital city of England.
+            It is the most populous city in the United Kingdom,
+            with a metropolitan area of over 13 million inhabitants.&lt;/p>
+        </div>
+
+        <div id="correctcode4">
+            &lt;h4>London&lt;/h4>
+            <br>
+            <br>
+            &lt;p>London is the capital city of England.
+            It is the most populous city in the United Kingdom,
+            with a metropolitan area of over 13 million inhabitants.&lt;/p>
+        </div>
+
+        <div id="correctcode5">
+            &lt;h5>London&lt;/h5>
+            <br>
+            <br>
+            &lt;p>London is the capital city of England.
+            It is the most populous city in the United Kingdom,
+            with a metropolitan area of over 13 million inhabitants.&lt;/p>
+        </div>
+
+        <div id="correctcode6">
+            &lt;h6>London&lt;/h6>
+            <br>
+            <br>
+            &lt;p>London is the capital city of England.
+            It is the most populous city in the United Kingdom,
+            with a metropolitan area of over 13 million inhabitants.&lt;/p>
+        </div>
+    </div>
+    <div>
+        <h3>headings2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Add six headings to the document with the text "Hello".</p>
+        </div>
+
+        <p>Start with the most important heading (the largest) and end with the least important heading (the smallest).
+        </p>
+
+        <div id="assignmentcode">
+            &lt;html>
+            <br>
+            &lt;body>
+            <br>
+            @(14)
+            <br>
+            @(14)
+            <br>
+            @(14)
+            <br>
+            @(14)
+            <br>
+            @(14)
+            <br>
+            @(14)
+            <br>
+            &lt;/body>
+            <br>
+            &lt;/html>
+        </div>
+
+        <div id="correctcode">
+            &lt;html>
+            <br>
+            &lt;body>
+            <br>
+            &lt;h1>Hello&lt;/h1>
+            <br>
+            &lt;h2>Hello&lt;/h2>
+            <br>
+            &lt;h3>Hello&lt;/h3>
+            <br>
+            &lt;h4>Hello&lt;/h4>
+            <br>
+            &lt;h5>Hello&lt;/h5>
+            <br>
+            &lt;h6>Hello&lt;/h6>
+            <br>
+            &lt;/body>
+            <br>
+            &lt;/html>
+        </div>
+    </div>
+    <div>
+        <h3>headings3</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Mark up the text with appropriate tags:</p>
+            <p>"Universal Studios Presents" is the most important heading.</p>
+            <p>"Jurassic Park" is the next most important heading.</p>
+            <p>"About" is the third most important heading.</p>
+            <p>The last sentence is just a paragraph.</p>
+
+            <p>Start with the most important heading (the largest) and end with the least important heading (the
+                smallest).</p>
+
+            <div id="assignmentcode">
+                @(4)Universal Studios Presents@(5)
+                <br><br>
+                @(4)Jurassic Park@(5)
+                <br><br>
+                @(4)About@(5)
+                <br><br>
+                @(3)On the Island of Isla Nublar,
+                a new park has been built:
+                Jurassic Park is a theme park
+                of cloned dinosaurs!!@(4)
+            </div>
+
+            <div id="correctcode">
+                &lt;h1>Universal Studios Presents&lt;/h1>
+                <br><br>
+                &lt;h2>Jurassic Park&lt;/h2>
+                <br><br>
+                &lt;h3>About&lt;/h3>
+                <br><br>
+                &lt;p>On the Island of Isla Nublar,
+                a new park has been built:
+                Jurassic Park is a theme park
+                of cloned dinosaurs!!&lt;/p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h3>paragraphs1</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use the correct HTML tag to add a paragraph with the text "Hello World!".</p>
+        </div>
+        <div id="assignmentcode">
+            &lt;html>
+            <br>
+            &lt;body>
+            <br>
+            @(19)
+            <br>
+            &lt;/body>
+            <br>
+            &lt;/html>
+        </div>
+
+        <div id="correctcode">
+            &lt;html>
+            <br>
+            &lt;body>
+            <br>
+            &lt;p>Hello World!&lt;/p>
+            <br>
+            &lt;/body>
+            <br>
+            &lt;/html>
+        </div>
+    </div>
+    <div>
+        <h3>paragraphs2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Clean up this document with proper end tags.</p>
+        </div>
+        <div id="assignmentcode">
+            &lt;h1>This is a Heading@(5)
+            <br><br>
+            &lt;p>This is a paragraph.@(4)
+        </div>
+        <div id="correctcode">
+            &lt;h1>This is a Heading&lt;/h1>
+            <br><br>
+            &lt;p>This is a paragraph.&lt;/p>
+        </div>
+    </div>
+    <div>
+        <h3>paragraphs3</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Add a horizontal rule between the heading and the paragraph.</p>
+
+        </div>
+        <div id="assignmentcode">
+            &lt;h1>London&lt;/h1>
+            <br>
+            @(4)
+            <br>
+            &lt;p>London is the capital city of England.
+            It is the most populous city in the United Kingdom,
+            with a metropolitan area of over 13 million inhabitants.&lt;/p>
+        </div>
+
+        <div id="correctcode">
+            &lt;h1>London&lt;/h1>
+            <br>
+            &lt;hr>
+            <br>
+            &lt;p>London is the capital city of England.
+            It is the most populous city in the United Kingdom,
+            with a metropolitan area of over 13 million inhabitants.&lt;/p>
+        </div>
+    </div>
+    <div>
+        <h3>paragraphs4</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Add a line break in the middle of the paragraph:</p>
+        </div>
+        <div id="assignmentcode">
+            &lt;p>My Bonnie lies@(4)over the ocean.&lt;/p>
+        </div>
+        <div id="correctcode">
+            &lt;p>My Bonnie lies&lt;br>over the ocean.&lt;/p>
+        </div>
+    </div>
+    <div>
+        <h3>paragraphs5</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Wrap this poem around HTML tags that will preserve all spaces and linebreaks when the element is
+                displayed.
+            </p>
+        </div>
+        <div id="assignmentcode">
+            @(5)
+            <br>
+            &nbsp;&nbsp;My Bonnie lies over the ocean.
+            <br><br>
+            &nbsp;&nbsp;My Bonnie lies over the sea.
+            <br><br>
+            &nbsp;&nbsp;My Bonnie lies over the ocean.
+            <br><br>
+            &nbsp;&nbsp;Oh, bring back my Bonnie to me.
+            <br>
+            @(6)
+        </div>
+        <div id="correctcode">
+            &lt;pre>
+            <br>
+            &nbsp;&nbsp;My Bonnie lies over the ocean.
+            <br><br>
+            &nbsp;&nbsp;My Bonnie lies over the sea.
+            <br><br>
+            &nbsp;&nbsp;My Bonnie lies over the ocean.
+            <br><br>
+            &nbsp;&nbsp;Oh, bring back my Bonnie to me.
+            <br>
+            &lt;/pre>
+        </div>
+    </div>
+    <div>
+        <h3>styles1</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use the correct HTML attribute, and CSS, to set the color of the paragraph to "blue".</p>
+        </div>
+
+        <div id="assignmentcode">
+            &lt;p @(5)="@(10);">This is a paragraph.&lt;/p>
+        </div>
+
+        <div id="correctcode">
+            &lt;p style="color:blue;">This is a paragraph.&lt;/p>
+        </div>
+
+        <div id="correctcode2">
+            &lt;p style='color:blue;'>This is a paragraph.&lt;/p>
+        </div>
+    </div>
+    <div>
+        <h3>styles2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use CSS to set the font of the paragraph to "courier".</p>
+        </div>
+
+        <div id="assignmentcode">
+            &lt;p style="@(11):courier;">This is a paragraph.&lt;/p>
+        </div>
+
+        <div id="correctcode">
+            &lt;p style="font-family:courier;">This is a paragraph.&lt;/p>
+        </div>
+    </div>
+    <div>
+        <h3>styles3</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use CSS to center align the paragraph.</p>
+        </div>
+        <div id="assignmentcode">
+            &lt;p style="@(10):center;">This is a paragraph.&lt;/p>
+        </div>
+        <div id="correctcode">
+            &lt;p style="text-align:center;">This is a paragraph.&lt;/p>
+        </div>
+    </div>
+    <div>
+        <h3>styles4</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use CSS to set the text size to 50 pixels.</p>
+        </div>
+        <div id="assignmentcode">
+            &lt;p style="@(9):50px;">This is a paragraph.&lt;/p>
+        </div>
+        <div id="correctcode">
+            &lt;p style="font-size:50px;">This is a paragraph.&lt;/p>
+        </div>
+    </div>
+    <div>
+        <h3>styles5</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use CSS to set the background-color of the document to yellow.</p>
+        </div>
+        <div id="assignmentcode">
+            &lt;html>
+            <br>
+            &lt;body style="@(16):yellow;">
+            <br><br>
+            &lt;h1>This is a heading&lt;/h1>
+            <br><br>
+            &lt;p>This is a paragraph.&lt;/p>
+            <br><br>
+            &lt;/body>
+            <br>
+            &lt;/html>
+        </div>
+        <div id="correctcode">
+            &lt;html>
+            <br>
+            &lt;body style="background-color:yellow;">
+            <br><br>
+            &lt;h1>This is a heading&lt;/h1>
+            <br><br>
+            &lt;p>This is a paragraph.&lt;/p>
+            <br><br>
+            &lt;/body>
+            <br>
+            &lt;/html>
+        </div>
+    </div>
+    <div>
+        <h3>styles6</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use CSS to center align the document.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>formatting1</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Add extra importance to the word "degradation" in the paragraph below.</p>
+            c
+        </div>
+    </div>
+    <div>
+
+        <h3>formatting2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Emphasize the word "metropolitan" in the text below.</p>
+            c
+        </div>
+    </div>
+    <div>
+
+        <h3>formatting3</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Highlight the word "FUN" in the text below.</p>
+            c
+        </div>
+    </div>
+    <div>
+
+        <h3>formatting4</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Apply subscript formatting to the number "2" in the text below.</p>
+            c
+        </div>
+    </div>
+    <div>
+
+        <h3>formatting5</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Add a line through (strikeout) the letters "blue" in the text below.</p>
+            c
+        </div>
+    </div>
+    <div>
+
+        <h3>quotation_elements1</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use an HTML element to add quotation marks around the letters "cool".</p>
+            c
+        </div>
+    </div>
+    <div>
+
+        <h3>quotation_elements2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>The text below should be a quoted section.<br>
+                c
+        </div>
+    </div>
+    <div>
+
+        <h3>quotation_elements3</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Change text direction.</p>
+            c
+        </div>
+    </div>
+    <div>
+
+        <h3>quotation_elements4</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>The letters "WHO" in the text below is an abbreviation of "World Health Organization".</p>
+            c
+        </div>
+        <h3>comments1</h3>
+    </div>
+    <div>
+
+        <div id="assignmenttext" style='display:block'>
+            <p>Use the HTML comment tag to make a comment out of the "This is a comment" text.</p>
+            c
+        </div>
+    </div>
+    <div>
+
+        <h3>comments2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Add comment tags around the paragraph:</p>
+            c
+        </div>
+    </div>
+    <div>
+
+        <h3>css1</h3>
+
+        <div id="assignmenttext" style='display:block'>
+            <p>Use CSS to set the background color of the document (body) to yellow.</p>
+            c
+        </div>
+    </div>
+    <div>
+
+        <h3>css2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use CSS to set the font of the document to "courier".</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>css3</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use CSS to set the text color of the document to red.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>css4</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use CSS to make a yellow, 1 pixel thick, border around all paragraphs.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>links1</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use the correct HTML to make the text below into a link to "default.html".</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>links2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use CSS to remove the underline from the link.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>links3</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use the correct HTML attribute to make the link open in a new window.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>links4</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use the correct HTML to make the image become a link to "default.html".</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>links5</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Add a "tooltip" to the link.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>images1</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use the HTML image attributes to set the size of the image to 250 pixels wide and 400 pixels tall.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>images2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use CSS to set the size of the image to 250 pixels wide and 400 pixels tall.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>images3</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use the correct HTML to make the image become a link to "default.html".</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>images4</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Make the image below float to the right of the paragraph.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>images5</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Add the correct HTML attribute to display the "smiley.gif" image.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>images6</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Specify an alternate text for the image.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>tables1</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Add a table row with two table headers.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>tables2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Add a table caption that says "Names".</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>tables3</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use CSS styles to make the table 300 pixels wide.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>tables4</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Add a table row at the end of the table, with two table cells.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>tables5</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use the correct HTML attribute to make the first TH element span two columns.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>tables6</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use the correct HTML attribute to make the second TH element span two rows.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>lists1</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Add a list item with the text "Coffee" inside the <code class="w3-codespan">&lt;ul></code>.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>lists2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Finish the HTML code to make an ordered list.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>lists3</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use CSS to display squares instead of bullets.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>lists4</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use the correct HTML attribute to display letters (uppercase ABC) instead of numbers.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>lists5</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use the correct HTML attribute to display uppercase roman numbers.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>lists6</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use the correct HTML elements to make a description of each term in the description list.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>classes1</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Create a class selector named "special".</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>classes2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Add the correct class to make the H1 element red.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>classes3</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Add two classes to the H1 element, to make the background pink and the color red.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>id1</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Add the correct HTML attribute to make the H1 element red.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>id2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Create an id selector named "special".</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>iframe1</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Create an iframe with a URL address that goes to https://www.w3schools.com.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>iframe2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use an iframe attribute to make the iframe 500 pixels wide.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>iframe3</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use CSS to display an iframe with no borders.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>iframe4</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Create an iframe with a URL address that goes to "default.html".</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>scripts1</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use JavaScript to change the HTML content of the <code class="w3-codespan">&lt;p></code> element to
+                "Hello
+                World!".</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>scripts2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use JavaScript to change the text size of the <code class="w3-codespan">&lt;p></code> element to 40
+                pixels.
+            </p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>scripts3</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use JavaScript to set the color of the <code class="w3-codespan">&lt;p></code> element to "red".</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>scripts4</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Use JavaScript to change the image source from "scream.png" to "smiley.gif".</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>computercode_elements1</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Define the text "var person;" as programming code.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>computercode_elements2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Define the text inside the &lt;code> element as preformatted text (to preserve spaces and line breaks).
+            </p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>computercode_elements3</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Define the character "x" in the equation as a variable.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>forms1</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>In the form below, add an input field with the type "button" and the value "OK".</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>forms2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>In the form below, add two radio buttons, both with the name "gender".</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>forms_attributes1</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Add a submit button, and specify that the form should go to "/action_page.php".</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>forms_attributes2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Specify that the form is submitted using the "POST" method.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>form_elements1</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>In the form below, add an empty drop down list with the name "cars".</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>form_elements2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>In the form below, add two option elements to the drop down list.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>form_elements3</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>In the form below, add a text area with the name "note".</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>form_input_types1</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>In the form below, add an input field for text, with the name "username" .</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>form_input_types2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>In the form below, add a submit button with the value "Submit Form".</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>form_input_types3</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>
+                c
+        </div>
+    </div>
+    <div>
+        <h3>form_input_types4</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>In the form below, add a <code class="w3-codespan">&lt;button></code> element with the text "Click Me".
+            </p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>form_attributes1</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>In the input field below, add placeholder that says "Your name here".</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>form_attributes2</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Disable the input field below.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>form_attributes3</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Set the max numbers of characters allowed in the input field to 40.</p>
+            c
+        </div>
+    </div>
+    <div>
+        <h3>form_attributes4</h3>
+        <div id="assignmenttext" style='display:block'>
+            <p>Set the input field to be read only (meaning that the value cannot be changed).</p>
+            e</h3>
+            <div id="assignmenttext" style='display:block'>
+                <p>Add a "tooltip" to the paragraph below with the text "About W3Schools".</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
