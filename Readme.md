@@ -53,12 +53,20 @@ https://www.w3schools.com/css/exercise.asp
    Abrir el resultado en un nuevo fichero
    ALT + Shitf y seleccionamos la columna de los numeros para descartarla
 
-10) Buscar "ise_html_" y reemplazarlo por "</div><h3>" y ".html" por "</h3>"
-
+10) Buscar ise_html_ y reemplazarlo por 
+```
+</div><h3> 
+```
+y .html por 
+```
+</h3>
+```
 11) Borrar el primer </div> linea 11
 
-12) Buscar en archivos FILE in FILE <div id="correctcode">
-
-13) Ya tenemos el 80% del codigo ahora lo podemos abrir en dos 
+12) Buscar en archivos FILE in FILE 
+```
+<div id="correctcode">
+```
+13) Ya tenemos el 80% del codigo ahora lo podemos abrir en dos ficheros desde visual studio code para su mas fácil manipulación
 
 
